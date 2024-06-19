@@ -25,7 +25,10 @@ class RootView extends StatelessWidget {
         primarySwatch: Colors.teal
       ),
       routes: {
-        "/":(context)=>const HomePage()
+        "/":(context)=>const HomePage(),
+        "/counter1":(context)=>const HomePage(),
+        "/counter2":(context)=>const HomePage(),
+        "/users": (context) => const HomePage(),
       },
       initialRoute: "/",
     );
